@@ -7,9 +7,9 @@ body {
 }
 
 h1 {
-    /*text-transform: uppercase; */
+    text-transform: uppercase;
     text-align: center;
-    margin: 40px;
+    margin: 25px;
 }
 
 body {
