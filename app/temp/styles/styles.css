@@ -346,6 +346,7 @@ body {
     color: white;
     font-family: 'Encode Sans Condensed', sans-serif;
     background: linear-gradient(to right, rgb(178, 69, 146), rgb(241, 95, 121));
+    
 
 }
 
@@ -356,5 +357,15 @@ img{
 
 .large-hero {
     position: relative;
+}
+
+.large-hero__text-content {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
 }
 
