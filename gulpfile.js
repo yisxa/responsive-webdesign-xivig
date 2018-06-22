@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     nestedcss = require('postcss-nested'),
     cssImport = require('postcss-import');
 
-/*
+
 gulp.task('default', function () {
 
     console.log("my first code in gulp");
@@ -19,12 +19,12 @@ gulp.task('html', function () {
 
 });
 
-*/
+
 
 gulp.task('styles', function () {
-
+  
     return gulp.src('./app/assets/styles/styles.css')
-        .pipe(postcss([cssimport, cssvars, nestedcss, autoprefixer]))
+        .pipe(postcss([cssImport, cssvars, nestedcss, autoprefixer]))
         .pipe(gulp.dest('./app/temp/styles'));
 
 });

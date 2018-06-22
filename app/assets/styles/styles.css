@@ -1,15 +1,4 @@
-@import "modules/_large-hero.css";
+@import "normalize.css";
+@import "base/_global";
+@import "modules/_large-hero";
 
-
-body {
-    
-    color: white;
-    font-family: 'Encode Sans Condensed', sans-serif;
-    background: linear-gradient(to right, rgb(178, 69, 146), rgb(241, 95, 121));
-
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-}
