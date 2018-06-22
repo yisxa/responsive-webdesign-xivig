@@ -1,9 +1,6 @@
 /* General CSS*/
 
-$maincolor = #ffffdd;
-
-
-}
+$maincolor = #ffffdf;
 
 h1 {
     text-transform: uppercase;
@@ -12,7 +9,7 @@ h1 {
 }
 
 body {
-    columns: 300px 2;
+    
     color: $maincolor;
     font-family: 'Cormorant', serif;
     background: linear-gradient(to right, rgb(178, 69, 146), rgb(241, 95, 121));
