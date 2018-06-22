@@ -1,8 +1,7 @@
 /* General CSS*/
 
-html,
-body {
-    height: 100%;
+$maincolor = #ffffdd;
+
 
 }
 
@@ -13,7 +12,8 @@ h1 {
 }
 
 body {
-    color: white;
+    columns: 300px 2;
+    color: $maincolor;
     font-family: 'Cormorant', serif;
     background: linear-gradient(to right, rgb(178, 69, 146), rgb(241, 95, 121));
 
