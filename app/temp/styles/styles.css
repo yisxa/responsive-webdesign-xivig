@@ -1,17 +1,15 @@
-/* General CSS*/
+@import "modules/_large-hero.css";
 
-$maincolor = #ffffdf;
-
-h1 {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 25px;
-}
 
 body {
     
-    color: $maincolor;
-    font-family: 'Cormorant', serif;
+    color: white;
+    font-family: 'Encode Sans Condensed', sans-serif;
     background: linear-gradient(to right, rgb(178, 69, 146), rgb(241, 95, 121));
 
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
