@@ -345,7 +345,7 @@ body {
     
     color: white;
     font-family: 'Encode Sans Condensed', sans-serif;
-    background: linear-gradient(to right, rgb(178, 69, 146), rgb(241, 95, 121));
+    background: linear-gradient(to right, rgb(255,204,153), rgb(255,153,153));
     
 
 }
@@ -356,7 +356,7 @@ img{
 }
 
 .large-hero {
-	border-bottom: 10px solid #2f5572;
+	border-bottom: 10px solid #677b88;
     position: relative;
 
 
@@ -432,7 +432,7 @@ img{
     }
 
 .btn {
-	background-color: #2f5572;
+	background-color: #677b88;
 	padding: .5rem 1rem;
 	display: inline-block;
 	text-decoration: none;
@@ -444,7 +444,7 @@ img{
 
 .btn--orange {
 		
-		background-color: #fac561;
+		background-color: #f95d6a;
 
 	}
 
@@ -476,6 +476,6 @@ img{
 }
 
 .page-section--blue {
-		background-color: #2f5572;
+		background-color: #677b88;
 	}
 
