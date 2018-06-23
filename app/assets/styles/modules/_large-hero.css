@@ -17,20 +17,19 @@
 	font-size: 1.1rem;
 	margin: 0;
     
-        @mixin atSmall{
-            font-size: 2rem;
-        }
+   	@mixin atSmall{
+        font-size: 2rem;
+    }
         
-        @mixin atMedium{
-            font-size: 3rem;
-        }
+    @mixin atMedium{
+        font-size: 3rem;
+    }
         
-        @mixin atLarge{
-            font-size: 3.8rem;
-        }
+    @mixin atLarge{
+        font-size: 3.8rem;
+    }
         
-    
-	}
+    }
 
 	&__subtitle {
 		font-weight: 200;
