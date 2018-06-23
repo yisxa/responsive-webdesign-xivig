@@ -4,7 +4,8 @@ var gulp = require('gulp'),
     autoprefixer = require('autoprefixer'),
     cssvars = require('postcss-simple-vars'),
     nestedcss = require('postcss-nested'),
-    cssImport = require('postcss-import');
+    cssImport = require('postcss-import'),
+    browserSync = require('browser-sync').create();
 
 
 gulp.task('default', function () {
@@ -15,7 +16,7 @@ gulp.task('default', function () {
 
 gulp.task('html', function () {
 
-    console.log("cool html trick");
+    console.log("cool html in gulp with watch");
 
 });
 
@@ -32,16 +33,32 @@ gulp.task('styles', function () {
 
 gulp.task('watch', function () {
 
+
+    browserSync.init({
+        notify : false,
+        server : {
+            baseDir : "app"
+        }
+
+    });
+
+
+
     watch('./app/index.html', function () {
 
-        gulp.start('html');
+        browserSync.reload();
 
     });
 
     watch('./app/assets/styles/**/*.css', function () {
 
-        gulp.start('styles');
+        gulp.start('cssInject');
     });
 
 
+});
+
+gulp.task('cssInject', ['styles'], function(){
+    return gulp.src('./app/temp/styles/styles.css')
+    .pipe(browserSync.stream());
 });
