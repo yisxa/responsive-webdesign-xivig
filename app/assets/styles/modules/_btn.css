@@ -9,10 +9,13 @@
 
 
 	&--orange {
+		
 		background-color: $mainOrange;
+
 	}
 
 	&--large {
+
 		padding: 1rem 1.8rem;
 		font-size: 1.25rem;
 
