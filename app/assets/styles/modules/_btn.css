@@ -1,0 +1,22 @@
+.btn {
+	background-color: $mainBlue;
+	padding: .5rem 1rem;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 3px;
+
+
+
+	&--orange {
+		background-color: $mainOrange;
+	}
+
+	&--large {
+		padding: 1rem 1.8rem;
+		font-size: 1.25rem;
+
+	}
+
+
+}
