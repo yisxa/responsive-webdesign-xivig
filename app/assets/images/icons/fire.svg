@@ -1,1 +1,12 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="56" height="64" viewBox="0 0 56 64"><defs><style>.cls-1{fill:#d4953d;}</style></defs><title>Untitled-2</title><path class="cls-1" d="M16,0C24,16,0,24,0,40S16,64,16,64C8.16,48.16,32,40,32,24S16,0,16,0ZM40,24c8,16-16,24-16,40H48c3.2,0,8-4,8-16C56,32,40,24,40,24Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="64px" viewBox="0 0 56 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fire" transform="translate(-279.000000, -121.000000)" fill="#F95D6A" fill-rule="nonzero">
+            <path d="M295,121 C303,137 279,145 279,161 C279,177 295,185 295,185 C287.16,169.16 311,161 311,145 C311,129 295,121 295,121 Z M319,145 C327,161 303,169 303,185 L327,185 C330.2,185 335,181 335,169 C335,153 319,145 319,145 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
