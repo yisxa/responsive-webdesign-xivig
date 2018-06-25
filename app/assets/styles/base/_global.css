@@ -1,15 +1,11 @@
 body {
-
-    color: white;
-    font-family: 'Encode Sans Condensed', sans-serif;
-    background: linear-gradient(to right, rgb(255,153,153), rgb(255,204,153));
-
-
+  font-family: 'Encode Sans Condensed', sans-serif;
+  background: linear-gradient(to right, rgb(255, 153, 153), rgb(255, 204, 153));
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 * {

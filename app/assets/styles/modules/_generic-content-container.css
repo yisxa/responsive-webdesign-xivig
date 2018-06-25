@@ -4,11 +4,9 @@
     line-height: 1.65;
     margin: 0 0 1.8rem 0;
     font-weight: 400;
-
     @mixim atSmall {
       font-size: 1.125rem;
     }
-
   }
   p a {
     font-weight: 700;
