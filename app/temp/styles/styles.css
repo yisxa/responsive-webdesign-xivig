@@ -757,22 +757,22 @@ a {
   }
   }
 
-site-header {
+.site-header {
   padding: 10px 0;
   position: absolute;
   width: 100%;
   z-index: 2;
-  background-color: rgba(103,123,136, .3);
+  background-color: rgba(249,93,106, .3);
 }
 
-site-header__btn-container {
+.site-header__btn-container {
     float: right;
   }
 
-site-header__logo {
+.site-header__logo {
     position: absolute;
     top: 0;
-    background-color: #677b88;
+    background-color: rgba(255,255,255, .8);
     padding: 25px 36px;
   }
 
