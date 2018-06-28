@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     nestedcss = require('postcss-nested'),
     cssImport = require('postcss-import'),
     mixins = require('postcss-mixins'),
-		hexrgba = require('postcss-hexrgba');
+    hexrgba = require('postcss-hexrgba');
 
 
 gulp.task('styles', function () {
