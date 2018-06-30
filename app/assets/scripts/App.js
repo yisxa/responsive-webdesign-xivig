@@ -10,5 +10,7 @@ var susy = new Person("Susy Khan", "Pink");
 susy.greet();
 
 
-//jquery
+//jquery for removing h1 h2 and h3 heading
 $("h1").remove();
+$("h2").remove();
+$("h3").remove();
