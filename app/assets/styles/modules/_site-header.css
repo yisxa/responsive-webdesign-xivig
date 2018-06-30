@@ -18,7 +18,7 @@
     left: 50%;
     transform: translateX(-50%) scale(.8);
     transform-origin: 50% 0;
-    background-color: rgba(#fff, .5);
+    background-color: rgba(#fff, .8);
     padding: 25px 36px;
 
     @mixin atMedium {

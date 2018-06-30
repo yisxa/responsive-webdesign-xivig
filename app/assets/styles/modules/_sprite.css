@@ -1,0 +1,78 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit css file exist in gulp/templates/sprite  */
+
+    .icon {
+      background-image: url('/assets/images/sprites/sprite-4bed335e.svg');
+    }
+
+  .icon--comment {
+    width: 64px;
+    height: 64px;
+    background-position: 0 100%;
+  }
+
+  .icon--facebook {
+    width: 21.23px;
+    height: 42.01px;
+    background-position: 87.48016438133213% 28.614191441594663%;
+  }
+
+  .icon--fire {
+    width: 56px;
+    height: 64px;
+    background-position: 30.805687203791468% 48.8%;
+  }
+
+  .icon--globe {
+    width: 64px;
+    height: 64px;
+    background-position: 74.38423645320196% 0;
+  }
+
+  .icon--instagram {
+    width: 42.01px;
+    height: 42.01px;
+    background-position: 95.5598026578959% 57.19436696373903%;
+  }
+
+  .icon--mail {
+    width: 64px;
+    height: 48px;
+    background-position: 74.38423645320196% 45.39007092198582%;
+  }
+
+  .icon--rain {
+    width: 65px;
+    height: 64px;
+    background-position: 0 48.8%;
+  }
+
+  .icon--star {
+    width: 64px;
+    height: 64px;
+    background-position: 61.083743842364534% 100%;
+  }
+
+  .icon--twitter {
+    width: 51.78px;
+    height: 42.06px;
+    background-position: 99.89777901682% 0;
+  }
+
+  .icon--wifi {
+    width: 60px;
+    height: 64px;
+    background-position: 30.917874396135264% 100%;
+  }
+
+  .icon--xivig {
+    width: 151px;
+    height: 61px;
+    background-position: 0 0;
+  }
+
+  .icon--youtube {
+    width: 34.75px;
+    height: 42px;
+    background-position: 92.57265877287406% 85.76870748299318%;
+  }
