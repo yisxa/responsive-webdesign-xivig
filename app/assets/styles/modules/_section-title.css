@@ -9,9 +9,14 @@
   strong {
     font-weight: 500;
   }
-  &--white {
+
+  &--blue {
+    color: $mainBlue;
+  }
+   &--white {
     color: white;
   }
+  
   &--t-margin {
     margin: 50px auto 200px auto;
   }
