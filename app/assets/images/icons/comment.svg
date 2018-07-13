@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<svg width="59px" height="59px" viewBox="0 0 59 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-=======
 <svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
->>>>>>> testimonial
     <title>Shape</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-<<<<<<< HEAD
-        <g id="gem" fill="#F95D6A" fill-rule="nonzero">
-            <g id="comment1">
-                <path d="M0.665574799,0.0756145279 C0.485616478,0.0615987562 0.308533175,0.127012365 0.180898098,0.254651489 C0.0532630131,0.382290604 -0.0121485295,0.559379511 0.0018668024,0.739343526 L0.0018668024,43.5867377 C0.0018668024,43.9533051 0.299018994,44.2504667 0.665574799,44.2504667 L44.2490666,44.2504667 L58.9981332,59 L58.9981332,0.665595859 C59.0121485,0.485631844 58.9467369,0.308542937 58.8191019,0.180903822 C58.6914668,0.0532646984 58.5143835,-0.0121489139 58.3344252,0.00186686146 L0.739320132,0.00186686146 L0.665574799,0.0756145279 Z" id="Shape"></path>
-            </g>
-=======
         <g id="comment" transform="translate(-1.000000, -1.000000)" fill="#E85963" fill-rule="nonzero">
             <path d="M1.72,1.08 C1.52477862,1.06479597 1.3326761,1.13575535 1.19421573,1.27421573 C1.05575535,1.4126761 0.984795966,1.60477862 1,1.8 L1,48.28 C1,48.677645 1.32235498,49 1.72,49 L49,49 L65,65 L65,1.72 C65.015204,1.52477862 64.9442446,1.3326761 64.8057843,1.19421573 C64.6673239,1.05575535 64.4752214,0.984795966 64.28,1 L1.8,1 L1.72,1.08 Z" id="Shape"></path>
->>>>>>> testimonial
         </g>
     </g>
 </svg>
