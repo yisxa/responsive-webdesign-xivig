@@ -2,19 +2,19 @@
 Instead edit css file exist in gulp/templates/sprite  */
 
     .icon {
-      background-image: url('/assets/images/sprites/sprite-9f0d11f2.svg');
+      background-image: url('/assets/images/sprites/sprite-097e969c.svg');
     }
 
   .icon--comment {
-    width: 64px;
-    height: 64px;
-    background-position: 32.70142180094787% 96.29629629629629%;
+    width: 63px;
+    height: 63px;
+    background-position: 62.735849056603776% 95.58823529411765%;
   }
 
   .icon--cube {
     width: 64px;
     height: 63px;
-    background-position: 63.03317535545024% 95.58823529411765%;
+    background-position: 32.70142180094787% 95.58823529411765%;
   }
 
   .icon--download {

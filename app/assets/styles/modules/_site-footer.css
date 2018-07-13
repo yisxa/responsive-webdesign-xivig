@@ -1,11 +1,11 @@
 .site-footer {
   color: white;
-  padding: .5rem 0; 
+  padding: .3rem 0; 
   text-align: center;
 
   &__text {
     display: block;
-    margin-bottom: .8rem;
+    margin-bottom: .5rem;
     font-weight: 200;
 
     @mixin atMedium {

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
     <title>Shape</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="comment" transform="translate(-1.000000, -1.000000)" fill="#E85963" fill-rule="nonzero">
-            <path d="M1.72,1.08 C1.52477862,1.06479597 1.3326761,1.13575535 1.19421573,1.27421573 C1.05575535,1.4126761 0.984795966,1.60477862 1,1.8 L1,48.28 C1,48.677645 1.32235498,49 1.72,49 L49,49 L65,65 L65,1.72 C65.015204,1.52477862 64.9442446,1.3326761 64.8057843,1.19421573 C64.6673239,1.05575535 64.4752214,0.984795966 64.28,1 L1.8,1 L1.72,1.08 Z" id="Shape"></path>
+        <g id="comment" fill="#E85963" fill-rule="nonzero">
+            <path d="M55.125,0 L7.875,0 C3.53144531,0 0,3.53123889 0,7.87453969 L0,43.3099683 C0,47.6532691 3.53144531,51.184508 7.875,51.184508 L19.6875,51.184508 L19.6875,61.5198413 C19.6875,62.7256302 21.065625,63.4269564 22.0376953,62.7133262 L37.40625,51.184508 L55.125,51.184508 C59.4685547,51.184508 63,47.6532691 63,43.3099683 L63,7.87453969 C63,3.53123889 59.4685547,0 55.125,0 Z" id="Shape"></path>
         </g>
     </g>
 </svg>
