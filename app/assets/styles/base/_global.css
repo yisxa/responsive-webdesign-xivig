@@ -1,7 +1,39 @@
 body {
-  font-family: 'Encode Sans Condensed', sans-serif;
+  
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Frank Ruhl Libre', serif;
+font-family: 'Lora', serif;
+font-family: 'Karla', sans-serif;
+*/
+
+
+font-family: 'Poppins', sans-serif;
+
+
+ /* font-family: 'Montserrat', sans-serif; */
+	/* font-family: 'Spectral', serif;  */
+  
+  /*font-family: 'Poppins', sans-serif; */
+  
+  /* font-family: 'Raleway', sans-serif;*/
+  /* font-family: 'Dosis', sans-serif; */
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Source Sans Pro', sans-serif;*/
+  /* font-family: 'Encode Sans Condensed', sans-serif;*/
+  /* font-family: 'Work Sans', sans-serif;*/
+  /* font-family: 'Rubik', sans-serif; */
+  
   background: linear-gradient(to right, rgb(255, 153, 153), rgb(255, 204, 153));
 }
+
+p {
+	font-size: 1rem;
+	@mixin atMedium {
+		font-size: 1.15rem;
+	}
+}
+
 
 img {
   max-width: 100%;

@@ -342,9 +342,44 @@ template {
 }
 
 body {
-  font-family: 'Encode Sans Condensed', sans-serif;
+  
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Frank Ruhl Libre', serif;
+font-family: 'Lora', serif;
+font-family: 'Karla', sans-serif;
+*/
+
+
+font-family: 'Poppins', sans-serif;
+
+
+ /* font-family: 'Montserrat', sans-serif; */
+	/* font-family: 'Spectral', serif;  */
+  
+  /*font-family: 'Poppins', sans-serif; */
+  
+  /* font-family: 'Raleway', sans-serif;*/
+  /* font-family: 'Dosis', sans-serif; */
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Source Sans Pro', sans-serif;*/
+  /* font-family: 'Encode Sans Condensed', sans-serif;*/
+  /* font-family: 'Work Sans', sans-serif;*/
+  /* font-family: 'Rubik', sans-serif; */
+  
   background: linear-gradient(to right, rgb(255, 153, 153), rgb(255, 204, 153));
 }
+
+p {
+	font-size: 1rem;
+}
+
+@media(min-width: 800px) {
+
+p {
+		font-size: 1.15rem
+}
+  }
 
 img {
   max-width: 100%;
@@ -408,8 +443,8 @@ a {
   }
 
 .large-hero__description {
-    font-weight: 100;
-    font-size: 1.1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 20rem;
@@ -419,7 +454,8 @@ a {
 @media(min-width: 530px) {
 
 .large-hero__description {
-      font-size: 1.5rem
+      font-size: 1.2rem;
+      font-weight: 500
   }
   }
 
@@ -591,7 +627,7 @@ a {
   }
 
 .headline--light {
-    font-weight: 100;
+    font-weight: 300;
   }
 
 .headline strong {
@@ -969,7 +1005,7 @@ Instead edit css file exist in gulp/templates/sprite  */
 .site-footer__text {
     display: block;
     margin-bottom: .5rem;
-    font-weight: 200;
+    font-weight: 400;
   }
 
 @media(min-width: 800px) {
@@ -1074,7 +1110,7 @@ Instead edit css file exist in gulp/templates/sprite  */
 
 .primary-nav a {
     color: #FFF;
-    font-weight: 300;
+    font-weight: 500;
     text-decoration: none;
     display: block;
     padding: 12px 0;
