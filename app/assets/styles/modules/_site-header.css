@@ -1,12 +1,12 @@
 .site-header {
   padding: 10px 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 2;
   transition: background-color .3s ease-out;
   
   &--is-expanded {
-    background-color: rgba(#5556D4, .9);
+    background-color: rgba(#5556D4, .75);
       
   }
     
@@ -23,7 +23,7 @@
 
   &__logo {
     position: absolute;
-     top: 5px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%) scale(.8);
     transform-origin: 50% 0;

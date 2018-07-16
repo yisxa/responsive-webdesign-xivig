@@ -103,6 +103,7 @@ var MobileMenu = function () {
   function MobileMenu() {
     _classCallCheck(this, MobileMenu);
 
+    alert("Humburger menu clicked");
     this.siteHeader = (0, _jquery2.default)(".site-header");
     this.menuIcon = (0, _jquery2.default)(".site-header__menu-icon");
     this.menuContent = (0, _jquery2.default)(".site-header__menu-content");
