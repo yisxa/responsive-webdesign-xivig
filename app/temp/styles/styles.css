@@ -759,21 +759,17 @@ a {
 
     }
 
-/* Begin Equal Height Rules */
-
 @media(min-width: 1010px) {
 
 .row--equal-height-at-large {
-
       display: flex
-    
+
   }
   }
 
 .row--equal-height-at-large > div {
-    float: none;
-    display: flex;
-
+      float: none;
+      display: flex;
     }
 
 .generic-content-container p {
