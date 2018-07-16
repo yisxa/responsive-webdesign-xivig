@@ -4,7 +4,19 @@ module.exports = {
         
         path : "./",
         path :  __dirname + "/app/temp/scripts",
-        filename : "App.js"
-        
-    }
+        filename : "App.js" 
+    },
+
+    module: {
+    loaders: [
+      {
+        loader: 'babel',
+        query: {
+          presets: ['es2015']
+        },
+        test: /\.js$/,
+        exclude: /node_modules/
+      }
+    ]
+  }
 }
