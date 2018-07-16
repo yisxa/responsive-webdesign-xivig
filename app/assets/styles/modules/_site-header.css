@@ -1,6 +1,6 @@
 .site-header {
   padding: 10px 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 2;
   transition: background-color .3s ease-out;
@@ -12,6 +12,7 @@
     
   @mixin atMedium {
     background-color: rgba($mainOrange, .8);
+    position: fixed;
   }
 
   &__btn-container {
@@ -23,7 +24,7 @@
 
   &__logo {
     position: absolute;
-    top: 0px;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%) scale(.8);
     transform-origin: 50% 0;
@@ -31,6 +32,8 @@
     padding: 0 30px 20px 30px;
 
     @mixin atMedium {
+      top: 0;
+      position: fixed;
       left: auto;
       transform: translateX(0);
     }

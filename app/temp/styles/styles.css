@@ -1029,7 +1029,7 @@ Instead edit css file exist in gulp/templates/sprite  */
 
 .site-header {
   padding: 10px 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 2;
   transition: background-color .3s ease-out;
@@ -1043,7 +1043,8 @@ Instead edit css file exist in gulp/templates/sprite  */
 @media(min-width: 800px) {
 
 .site-header {
-    background-color: rgba(249,93,106, .8)
+    background-color: rgba(249,93,106, .8);
+    position: fixed
 }
   }
 
@@ -1057,7 +1058,7 @@ Instead edit css file exist in gulp/templates/sprite  */
 
 .site-header__logo {
     position: absolute;
-    top: 0px;
+    top: 5px;
     left: 50%;
     -webkit-transform: translateX(-50%) scale(.8);
             transform: translateX(-50%) scale(.8);
@@ -1070,6 +1071,8 @@ Instead edit css file exist in gulp/templates/sprite  */
 @media(min-width: 800px) {
 
 .site-header__logo {
+      top: 0;
+      position: fixed;
       left: auto;
       -webkit-transform: translateX(0);
               transform: translateX(0)
