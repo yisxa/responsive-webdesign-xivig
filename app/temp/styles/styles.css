@@ -350,8 +350,8 @@ font-family: 'Lora', serif;
 font-family: 'Karla', sans-serif;
 */
 
+font-family: 'Roboto', sans-serif;
 
-font-family: 'Poppins', sans-serif;
 
 
  /* font-family: 'Montserrat', sans-serif; */
@@ -407,6 +407,8 @@ a {
 /* BEM technique */
 
 .large-hero__text-content {
+    margin-top: 0;
+    padding-top: 0;
     position: absolute;
     top: 50%;
     left: 0;
@@ -414,6 +416,14 @@ a {
     text-align: center;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
+  }
+
+@media(min-width: 800px) {
+
+.large-hero__text-content {
+      margin-top: 0;
+      padding-top: 0
+  }
   }
 
 .large-hero__title {
@@ -771,7 +781,9 @@ a {
     line-height: 1.65;
     margin: 0 0 1.8rem 0;
     font-weight: 400;
+    text-align: justify;
     @mixim atSmall {
+      text-align: justify;
       font-size: 1.125rem;
     }
   }
@@ -876,6 +888,8 @@ a {
   background-color: rgba(255, 250, 250, .8);
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
+  text-align: justify;
+  font-style: italic;
 }
 
 @media(min-width: 1010px) {
@@ -1022,7 +1036,13 @@ Instead edit css file exist in gulp/templates/sprite  */
   position: absolute;
   width: 100%;
   z-index: 2;
+  transition: background-color .3s ease-out;
 }
+
+.site-header--is-expanded {
+    background-color: rgba(85,86,212, .9);
+      
+  }
 
 @media(min-width: 800px) {
 
@@ -1031,8 +1051,12 @@ Instead edit css file exist in gulp/templates/sprite  */
 }
   }
 
+@media(min-width: 800px) {
+
 .site-header__btn-container {
-    float: right;
+        float: right
+    
+  }
   }
 
 .site-header__logo {
@@ -1062,12 +1086,53 @@ Instead edit css file exist in gulp/templates/sprite  */
 
 .site-header__menu-icon {
     width: 20px;
-    height: 20px;
-    background-color: #FFF;
+    height: 19px;
     position: absolute;
     top: 10px;
     right: 10px;
   }
+
+.site-header__menu-icon::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: #FFF;
+      -webkit-transform-origin: 0 0;
+              transform-origin: 0 0;
+      transition: -webkit-transform .3s ease-out;
+      transition: transform .3s ease-out;
+      transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    }
+
+.site-header__menu-icon__middle {
+      position: absolute;
+      top: 8px;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: #FFF;
+      transition: all .3s ease-out;
+      -webkit-transform-origin: 0 50%;
+              transform-origin: 0 50%;
+    }
+
+.site-header__menu-icon::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: #FFF;
+      -webkit-transform-origin: 0 100%;
+              transform-origin: 0 100%;
+      transition: -webkit-transform .3s ease-out;
+      transition: transform .3s ease-out;
+      transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    }
 
 @media(min-width: 800px) {
 
@@ -1076,16 +1141,50 @@ Instead edit css file exist in gulp/templates/sprite  */
   }
   }
 
+.site-header__menu-icon--close-x::before {
+      -webkit-transform: rotate(45deg) scaleX(1.25);
+              transform: rotate(45deg) scaleX(1.25);
+    }
+
+.site-header__menu-icon--close-x .site-header__menu-icon__middle {
+      opacity: 0;
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+    }
+
+.site-header__menu-icon--close-x::after {
+      -webkit-transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+              transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+    }
+
 .site-header__menu-content {
-    display: none;
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    transition: all .3s ease-out;
+    position: relative;
+    z-index: -10;
+    padding-top: 90px;
+    text-align: center;
   }
 
 @media(min-width: 800px) {
 
 .site-header__menu-content {
-      display: block
+      opacity: 1;
+      z-index: 1;
+      padding-top: 0;
+      -webkit-transform: scale(1);
+              transform: scale(1)
   }
   }
+
+.site-header__menu-content--is-visible {
+       opacity: 1;
+      z-index: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
 
 .primary-nav--pull-right {
     float: right;
