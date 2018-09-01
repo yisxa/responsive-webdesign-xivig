@@ -506,6 +506,10 @@ a {
     max-width: 976px;
   }
 
+.wrapper--narrow{
+    max-width: 470px;
+  }
+
 .wrapper--no-padding-until-medium {
     padding-left: 0;
     padding-right: 0;
@@ -812,6 +816,12 @@ a {
 
 .section-title--white {
     color: white;
+  }
+
+.section-title--less-margin{
+    
+    margin-bottom: 1.65rem;
+    margin-top: 0;
   }
 
 .section-title--t-margin {
@@ -1213,4 +1223,84 @@ Instead edit css file exist in gulp/templates/sprite  */
     display: block;
     padding: 12px 0;
   }
+
+.modal {
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255,255,255, 0.93);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.modal__inner {
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);
+
+	}
+
+.modal__description{
+		color: #f95d6a;
+		text-align: center;
+		font-size: 1.5rem;
+		line-height: 2.5rem;
+		font-weight: 300;
+		margin-bottom: 10px;
+
+	}
+
+.modal__close{
+		position: absolute;
+		font-size: 2rem;
+		top: 15px;
+		right: 15px;
+		-webkit-transform: scaleX(1.2);
+		        transform: scaleX(1.2);
+		-webkit-transform-origin: 100% 0;
+		        transform-origin: 100% 0;
+		color: #677b88;
+		cursor: pointer;
+	}
+
+.modal__close:hover{
+			color: #f95d6a;
+
+		}
+
+.social-icons{
+	text-align: center;
+}
+
+.social-icons__icon{
+		background-color: #f95d6a;
+		display: inline-block;
+		margin: 0 5px 5px 5px;
+		width: 33%;
+		height: 72px;
+		position: relative;
+	}
+
+@media(min-width: 530px) {
+
+.social-icons__icon{
+			width: 72px;
+			margin: 0 5px
+	}
+  }
+
+.social-icons__icon .icon{
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			        transform: translate(-50%, -50%);
+			
+		}
 

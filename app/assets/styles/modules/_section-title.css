@@ -16,6 +16,11 @@
    &--white {
     color: white;
   }
+  &--less-margin{
+    
+    margin-bottom: 1.65rem;
+    margin-top: 0;
+  }
   
   &--t-margin {
     margin: 50px auto 200px auto;

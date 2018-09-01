@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 class MobileMenu {
   constructor() {
-    alert("Humburger menu clicked");
+    
     this.siteHeader = $(".site-header");
     this.menuIcon = $(".site-header__menu-icon");
     this.menuContent = $(".site-header__menu-content");
