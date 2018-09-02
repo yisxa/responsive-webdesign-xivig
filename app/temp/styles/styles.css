@@ -1234,7 +1234,17 @@ Instead edit css file exist in gulp/templates/sprite  */
 	background-color: rgba(255,255,255, 0.93);
 	opacity: 0;
 	visibility: hidden;
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
+	transition: all .3s ease-out;
 }
+
+.modal--is-visible{
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
 
 .modal__inner {
 		position: absolute;
