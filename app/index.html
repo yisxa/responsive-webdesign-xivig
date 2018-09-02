@@ -44,10 +44,10 @@
 
             <nav class="primary-nav primary-nav--pull-right">
               <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#home" id="home-link">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#services" id="services-link">Services</a></li>
+                <li><a href="#testimonials" id="testimonials-link">Testimonials</a></li> 
                 <li><a href="#stats">Statistics</a></li>
                 <li><a href="#contact">Contact Us</a></li>
               </ul>
@@ -79,7 +79,7 @@
   <!-- hero section end -->
 
   <!-- home section -->
-  <div id="home" class="page-section">
+  <div id="home" class="page-section" data-matching-link="#home-link">
     <div class="wrapper">
       <h2 class="headline headline--centered headline--light headline--b-margin-small">The first website we created <strong>was our own.</strong></h2>
       <h3 class="headline headline--centered headline--white headline--small headline--narrow headline--light headline--b-margin-large">Ever since, we&rsquo;ve been working to make web design <strong>better for everyone.</strong></h3>
@@ -114,7 +114,7 @@
   <!-- home section end -->
 
   <!-- services section start -->
-  <div id="services" class="page-section page-section--blue">
+  <div id="services" class="page-section page-section--blue"  data-matching-link="#services-link">
     <div class="wrapper">
       <h2 class="section-title"><span class="icon icon--cube section-title__icon"></span>Our <strong>Services</strong></h2>
       <div class="row row--gutters-large generic-content-container">
@@ -155,7 +155,7 @@
   <!-- services section end -->
 
   <!-- Testimonials section start -->
-  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonial">
+  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonial" data-matching-link="#testimonials-link">
     <div class="wrapper">
       <h2 class="section-title section-title--white section-title--t-margin"><span class="icon icon--comment section-title__icon"></span>Actual <strong>Testimonials</strong></h2>
       <div class="row row--gutters row--equal-height-at-large row--gutters-small row--t-padding generic-content-container">

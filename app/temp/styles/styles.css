@@ -1053,9 +1053,13 @@ Instead edit css file exist in gulp/templates/sprite  */
 @media(min-width: 800px) {
 
 .site-header {
-    background-color: rgba(249,93,106, .8);
+    background-color: rgba(249,93,106, .4);
     position: fixed
 }
+
+    .site-header--dark{
+      background-color: rgba(249,93,106, .85);
+    }
   }
 
 @media(min-width: 800px) {
@@ -1085,8 +1089,15 @@ Instead edit css file exist in gulp/templates/sprite  */
       position: fixed;
       left: auto;
       -webkit-transform: translateX(0);
-              transform: translateX(0)
+              transform: translateX(0);
+      transition: -webkit-transform .3s ease-out;
+      transition: transform .3s ease-out;
+      transition: transform .3s ease-out, -webkit-transform .3s ease-out
   }
+      .site-header--dark .site-header__logo{
+        -webkit-transform: scale(.57);
+                transform: scale(.57);
+      }
   }
 
 .site-header__logo__graphic {
@@ -1195,8 +1206,49 @@ Instead edit css file exist in gulp/templates/sprite  */
               transform: scale(1);
     }
 
-.primary-nav--pull-right {
+/*.primary-nav {
+
+  &--pull-right {
     float: right;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    @mixin clearfix;
+  }
+
+  li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+  }
+
+  a {
+    color: #FFF;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    padding: 12px 0;
+  }
+}*/
+
+.primary-nav {
+  padding-top: 10px;
+}
+
+@media(min-width: 800px) {
+
+.primary-nav {
+    padding-top: 0
+}
+  }
+
+@media(min-width: 800px) {
+
+.primary-nav--pull-right {
+      float: right
+  }
   }
 
 .primary-nav ul {
@@ -1212,16 +1264,52 @@ Instead edit css file exist in gulp/templates/sprite  */
 
 .primary-nav li {
     list-style: none;
-    float: left;
-    padding-right: 20px;
+    display: inline-block;
+    padding-right: 7px;
+  }
+
+@media(min-width: 800px) {
+
+.primary-nav li {
+      padding-right: 20px;
+      float: left;
+      display: block
+  }
+  }
+
+.primary-nav li:last-child {
+    padding-right: 0;
+  }
+
+@media(min-width: 800px) {
+
+.primary-nav li:last-child {
+      padding-right: 20px
+  }
   }
 
 .primary-nav a {
     color: #FFF;
-    font-weight: 500;
+    font-weight: 300;
     text-decoration: none;
     display: block;
-    padding: 12px 0;
+    padding: 5px 8px;
+    font-size: .8rem;
+    background-color: rgba(103,123,136, .5);
+  }
+
+@media(min-width: 800px) {
+
+.primary-nav a {
+      font-size: 1.2rem;
+      font-weight: 500;
+      padding: 12px 0;
+      background-color: transparent
+  }
+
+      .primary-nav a.is-current-link {
+        color: #677b88;
+      }
   }
 
 .modal {
