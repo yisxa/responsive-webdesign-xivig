@@ -6,7 +6,7 @@
   transition: background-color .3s ease-out;
   
   &--is-expanded {
-    background-color: rgba(#5556D4, .75);
+    background-color: rgba(#F8987E, .85);
       
   }
     

@@ -1048,7 +1048,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .site-header--is-expanded {
-    background-color: rgba(85,86,212, .75);
+    background-color: rgba(248,152,126, .85);
       
   }
 
@@ -1321,7 +1321,7 @@ Instead edit gulp/templates/sprite */
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: rgba(255,255,255, 0.93);
+	background-color: rgba(255,255,255, 0.95);
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transform: scale(1.2);
