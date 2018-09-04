@@ -1,78 +1,82 @@
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
-Instead edit css file exist in gulp/templates/sprite  */
+Instead edit gulp/templates/sprite */
 
     .icon {
-      background-image: url('/assets/images/sprites/sprite-097e969c.svg');
+      background-image: url('/assets/images/sprites/sprite-7bd7df2d.svg');
+    }
+
+    .no-svg .icon {
+      background-image: url('/assets/images/sprites/sprite-7bd7df2d.png');
     }
 
   .icon--comment {
-    width: 63px;
-    height: 63px;
-    background-position: 62.735849056603776% 95.58823529411765%;
+    width: 65px;
+    height: 65px;
+    background-position: 63.425925925925924% 95.71428571428571%;
   }
 
   .icon--cube {
-    width: 64px;
-    height: 63px;
-    background-position: 32.70142180094787% 95.58823529411765%;
+    width: 66px;
+    height: 65px;
+    background-position: 33.02325581395349% 95.71428571428571%;
   }
 
   .icon--download {
-    width: 69px;
-    height: 69px;
-    background-position: 74.75728155339806% 0;
+    width: 71px;
+    height: 71px;
+    background-position: 74.28571428571429% 0;
   }
 
   .icon--facebook {
-    width: 21.23px;
-    height: 42.01px;
-    background-position: 87.87484730267565% 26.791515383145423%;
+    width: 23.23px;
+    height: 44.01px;
+    background-position: 88.06300190091943% 27.36815951301323%;
   }
 
   .icon--gem {
-    width: 76px;
-    height: 67px;
-    background-position: 0 47.72727272727273%;
+    width: 78px;
+    height: 69px;
+    background-position: 0 47.794117647058826%;
   }
 
   .icon--globe {
-    width: 65px;
-    height: 65px;
-    background-position: 36.19047619047619% 47.014925373134325%;
+    width: 67px;
+    height: 67px;
+    background-position: 36.44859813084112% 47.10144927536232%;
   }
 
   .icon--instagram {
-    width: 42.01px;
-    height: 42.01px;
-    background-position: 95.71226232885532% 53.551181603923816%;
+    width: 44.01px;
+    height: 44.01px;
+    background-position: 95.78463226296468% 54.7052611963476%;
   }
 
   .icon--life-ring {
-    width: 69px;
-    height: 69px;
+    width: 71px;
+    height: 71px;
     background-position: 0 100%;
   }
 
   .icon--mail {
-    width: 64px;
-    height: 48px;
-    background-position: 72.98578199052133% 45.6953642384106%;
+    width: 66px;
+    height: 50px;
+    background-position: 72.55813953488372% 45.806451612903224%;
   }
 
   .icon--twitter {
-    width: 51.78px;
-    height: 42.06px;
-    background-position: 99.90144252307141% 0;
+    width: 53.78px;
+    height: 44.06px;
+    background-position: 99.90317753718863% 0;
   }
 
   .icon--xivig {
-    width: 154px;
-    height: 63px;
+    width: 156px;
+    height: 65px;
     background-position: 0 0;
   }
 
   .icon--youtube {
-    width: 34.75px;
-    height: 42px;
-    background-position: 92.81997918834547% 80.30573248407642%;
+    width: 36.75px;
+    height: 44px;
+    background-position: 92.93756397134084% 82.03726708074532%;
   }

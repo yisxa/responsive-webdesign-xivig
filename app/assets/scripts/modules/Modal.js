@@ -20,7 +20,7 @@ class Modal {
   }
 
   keyPressHandler(e) {
-    if (e.keyCode == 27) { //close by clicking the esc key
+    if (e.keyCode == 27) {
       this.closeModal();
     }
   }
